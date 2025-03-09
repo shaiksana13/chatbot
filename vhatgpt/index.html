@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Converter</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/41a1f81f15.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Text to Speech <span>Converter</span></h1>
+        <div class="textarea-container">
+            <textarea id="textInput" placeholder="Write anything here..."></textarea>
+            <div class="file-upload">
+                <label for="fileUpload"><i class="fa-solid fa-file"></i></label>
+                <input type="file" id="fileUpload" accept=".txt">
+            </div>
+        </div>
+        <div class="row">
+            <select id="voiceSelect"></select>
+            <button id="speakButton"><img src="play.png" alt="play">Listen</button>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">shaik sana</a> - All rights reserved</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
